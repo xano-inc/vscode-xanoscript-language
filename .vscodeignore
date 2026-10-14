@@ -1,0 +1,13 @@
+.github
+.vscode
+node_modules
+src
+*.ts
+tsconfig.json
+esbuild.js
+eslint.config.mjs
+CLAUDE.md
+CONTRIBUTING.md
+SECURITY.md
+.git*
+test
