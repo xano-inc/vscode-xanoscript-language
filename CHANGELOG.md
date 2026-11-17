@@ -4,7 +4,8 @@ All notable changes to the XanoScript Language Server extension are documented i
 
 ## [Unreleased]
 
-- The language server now comes from the `@xano/xanoscript-language-server` npm package, upgraded to 12.30.0
+- The language server now comes from the `@xano/xanoscript-language-server` npm package, upgraded to 12.31.0
+- Agents: `type: "xano-free"` gets a deprecation hint suggesting `xano-ai`, since Xano Free now runs as Xano AI and is charged in credits
 - Unit tests: MCP prompts, resources and tools accept `test` blocks
 - Xano AI: grammar for the Xano AI statements, the `xano-ai` agent provider, an optional `location`, and `save_to_files` on the media statements
 - Tables accept the `audit` block
